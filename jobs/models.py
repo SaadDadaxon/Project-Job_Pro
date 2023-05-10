@@ -29,7 +29,7 @@ class Like(models.Model):
 class ApplyJob(models.Model):
     author = models.ForeignKey(Account, on_delete=models.CASCADE, null=True, blank=True)
     jobs = models.ForeignKey(Jobs, on_delete=models.CASCADE)
-    rezume = models.CharField(max_length=88)
+    rezume = models.FileField()
     create_date = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
