@@ -1,0 +1,10 @@
+pip install psycopg2  bu - postgres ga ulashga yordam beradi
+psql --version 
+pip install psql,  agar psql bolmasa install qilib beradi
+psql -U postgres, bu - user yaratish uchun postgresga
+postgres=# drop database ...(saytni title yoziladi);
+DROP DATABASE - terminalda shunaqa chiqadi
+postgres=# create database ..(saytni title) with owner postgres;
+postgres=# GRANT ALL PRIVILEGES ON DATABASE ...(syt title) to (syt title)
+GRAND
+
